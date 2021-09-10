@@ -6,7 +6,7 @@ import Counter from "./components/Counter";
 import { useSelector } from "react-redux";
 
 function App() {
-  const auth = useSelector((state) => state.auth.isAuthentificated);
+  const auth = useSelector((state) => state.auth.isAuthenticated);
 
   return (
     <Fragment>
